@@ -1,10 +1,8 @@
-function exampleFunction() {
-    console.log("This is example 8");
+let x = 10;
+if (x === 120) {
+    console.log(x);
+} else if (x < 100) {
+    console.log("x is not less than to 10");
+} else {
+    console.log("x is not equal to 10");
 }
-exampleFunction();
-function addNumbers(a = 0, b = 0) {
-    return a + b;
-}
-
-let a = 10;
-let result = addNumbers(null, a);

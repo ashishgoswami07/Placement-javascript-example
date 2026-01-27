@@ -1,1 +1,4 @@
-for (let i=0; i<5;);
+let x = 6;
+let y = null ?? 10;
+console.log(y);
+//nullish coalescing operator

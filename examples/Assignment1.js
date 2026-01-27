@@ -1,13 +1,14 @@
-// Define variables
-let userRole = "admin";      // "admin", "editor", "guest"
-let isAuthenticated = true; // true or false
-let userAge = 22;           // number
-
-// Logic
-if (!isAuthenticated) {
-    console.log("Please log in");
-} else if (isAuthenticated && userRole === "admin") {
-    console.log("Welcome to the Dashboard.");
-} else if (isAuthenticated && userRole !== "admin") {
-    console.log("Access Denied");
+function verify(userRole, isAuthenticated, userAge) {
+    if (!isAuthenticated) {
+        console.log("Please Log In");
+    } else if (isAuthenticated && userRole === "admin") {
+        console.log("Welcome to the Dashboard");
+    } else {
+        console.log("Access Denied.");
+    }
 }
+
+let isAuthenticated = 1;
+let userAge = 25;
+let userRole = 'admin';
+verify(userRole, isAuthenticated, userAge);

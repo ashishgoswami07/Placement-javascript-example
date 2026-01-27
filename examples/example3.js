@@ -1,4 +1,4 @@
-let x =Number("Aditya");
+let x =Number("10");
 let y = 10;
 
 console.log(typeof x);

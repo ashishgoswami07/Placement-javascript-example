@@ -1,7 +1,13 @@
-let y = 10;
+let x = 10;
 
-console.log(typeof y);
-console.log(y);
+console.log(typeof x);
+console.log(x);
 
-y = 20;   // allowed now
+x = 20;
+console.log(x);
+const y = 10;
 console.log(y);
+//y = 20; 
+
+
+

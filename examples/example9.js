@@ -1,4 +1,16 @@
-const add = (a, b) => a + b;
+let x = 100;
+switch (x) {
+    case 10:
+        console.log("value is 10");
+        break;
 
-const r = add(10, 20);
-console.log(r);
+
+    case 20:
+        console.log("value is 20");
+        break;
+
+    default:
+        console.log("value not match")
+
+
+}
